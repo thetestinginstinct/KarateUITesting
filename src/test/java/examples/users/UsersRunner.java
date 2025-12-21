@@ -6,7 +6,7 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("ChangeBrowserScreenSize").relativeTo(getClass());
+        return Karate.run("InputAndClear").relativeTo(getClass());
     }    
 
 }
